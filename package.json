@@ -1,5 +1,5 @@
 {
-  "name": "@rescience/requesthunt-mcp-server",
+  "name": "@resciencelab/requesthunt-mcp-server",
   "version": "1.0.0",
   "description": "MCP server for RequestHunt - search feature requests from Reddit, X, and GitHub",
   "main": "dist/index.js",

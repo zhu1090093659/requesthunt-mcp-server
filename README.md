@@ -1,6 +1,6 @@
 # RequestHunt MCP Server
 
-[![npm version](https://badge.fury.io/js/%40rescience%2Frequesthunt-mcp-server.svg)](https://www.npmjs.com/package/@rescience/requesthunt-mcp-server)
+[![npm version](https://badge.fury.io/js/%40resciencelab%2Frequesthunt-mcp-server.svg)](https://www.npmjs.com/package/@resciencelab/requesthunt-mcp-server)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 MCP (Model Context Protocol) server for [RequestHunt](https://requesthunt.com) - search and discover feature requests from Reddit, X (Twitter), and GitHub using Claude Desktop or any MCP-compatible client.
@@ -31,7 +31,7 @@ Add to your Claude Desktop configuration file:
   "mcpServers": {
     "requesthunt": {
       "command": "npx",
-      "args": ["-y", "@rescience/requesthunt-mcp-server"],
+      "args": ["-y", "@resciencelab/requesthunt-mcp-server"],
       "env": {
         "REQUESTHUNT_API_KEY": "rh_live_your_api_key_here"
       }

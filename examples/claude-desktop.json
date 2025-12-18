@@ -2,7 +2,7 @@
   "mcpServers": {
     "requesthunt": {
       "command": "npx",
-      "args": ["-y", "@rescience/requesthunt-mcp-server"],
+      "args": ["-y", "@resciencelab/requesthunt-mcp-server"],
       "env": {
         "REQUESTHUNT_API_KEY": "rh_live_your_api_key_here"
       }
