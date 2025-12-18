@@ -1,0 +1,50 @@
+{
+  "name": "@rescience/requesthunt-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for RequestHunt - search feature requests from Reddit, X, and GitHub",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "requesthunt-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "requesthunt",
+    "ai",
+    "claude",
+    "feature-requests"
+  ],
+  "author": "ReScience Lab",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReScienceLab/requesthunt-mcp-server.git"
+  },
+  "homepage": "https://requesthunt.com",
+  "bugs": {
+    "url": "https://github.com/ReScienceLab/requesthunt-mcp-server/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
