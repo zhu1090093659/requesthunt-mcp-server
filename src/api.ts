@@ -4,7 +4,6 @@ import type {
   SearchMeta,
   ListResult,
   Topic,
-  TrendingTag,
 } from "./types.js";
 
 const API_BASE = "https://requesthunt.com/api/v1";
@@ -100,10 +99,5 @@ export async function listRequests(params: ListParams): Promise<ListResult> {
 
 export async function getTopics(): Promise<Topic[]> {
   const response = await request<Topic[]>("/topics");
-  return response.data!;
-}
-
-export async function getTrending(): Promise<TrendingTag[]> {
-  const response = await request<TrendingTag[]>("/trending");
   return response.data!;
 }

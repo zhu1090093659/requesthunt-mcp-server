@@ -47,12 +47,6 @@ export interface Topic {
   topics: string[];
 }
 
-export interface TrendingTag {
-  name: string;
-  count: number;
-  totalVotes: number;
-}
-
 export interface UsageStats {
   cached: {
     used: number;

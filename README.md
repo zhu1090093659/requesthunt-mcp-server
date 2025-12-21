@@ -11,7 +11,6 @@ MCP (Model Context Protocol) server for [RequestHunt](https://requesthunt.com) -
 - **AI topic expansion** - automatically expand your query to related topics
 - **Realtime scraping** - fetch fresh data from Reddit, X, and GitHub
 - **Filter by topic/category** - narrow down to specific products or categories
-- **Trending tags** - discover what's hot in the feature request space
 
 ## Quick Start
 
@@ -46,7 +45,7 @@ Restart Claude Desktop and try:
 
 - "Search for feature requests about dark mode"
 - "Find what users are requesting for Notion"
-- "Show me trending feature request topics"
+- "List top feature requests for VS Code"
 
 ## Available Tools
 
@@ -75,12 +74,6 @@ List feature requests with filters and pagination.
 - `sortBy` (optional): `new` or `top`
 
 **Example:** "List top feature requests for VS Code"
-
-### `get_trending`
-
-Get trending tags based on recent activity.
-
-**Example:** "What are the trending feature request topics?"
 
 ### `get_topics`
 
