@@ -1,0 +1,10 @@
+node_modules
+src
+*.ts
+!*.d.ts
+.git
+.gitignore
+*.md
+.env*
+tsconfig.json
+bun.lock

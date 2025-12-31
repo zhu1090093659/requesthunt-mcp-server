@@ -1,0 +1,28 @@
+# Node dependencies
+node_modules/
+
+# Source files (not needed, we use pre-built dist)
+# src/
+
+# Git
+.git/
+.gitignore
+
+# Local dev files
+*.log
+.env*
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Test files
+*.test.ts
+*.spec.ts
+__tests__/
+
+# Documentation
+*.md
+!README.md
